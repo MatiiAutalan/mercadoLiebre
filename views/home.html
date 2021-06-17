@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estructura de un sitio web</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <header>
-      <div>
-        <img
-          src="/images/logo-mercado-liebre.svg"
-          alt="Logo de mercado liebre"
-          width="100%"
-        />
+      <div class="logoBarra">
+        <img src="/images/logo-mercado-liebre.svg" alt="Logo de mercado liebre" width="40%"/> <br>
+      <input  type="search" id="barra-busqueda">
+      <br>
+     <button><i class="fas fa-search"></i></button>
+    </div>
+    
+      <div class="tipoPago" >
+        <i class="fas fa-hand-holding-usd"></i><p>Comprá en cuotas y sin tarjeta de crédito</p>
       </div>
-      <p>Lugar para la barra de busqueda</p>
-      <p>Comprá en cuotas y sin tarjeta de crédito</p>
+      
       <nav>
         <ul>
           <li><a href="#">Ofertas</a></li>
@@ -26,11 +34,15 @@
         </ul>
 
         <ul>
-          <li><a href="#">Creá tu cuenta</a></li>
-          <li><a href="#">Ingresá</a></li>
-          <li><a href="#">Mis compras</a></li>
+          <li><a href="#">Creá tu cuenta</a></li><i class="far fa-address-card"></i>
+          <li><a href="#">Ingresá</a></li><i class="fas fa-sign-in-alt"></i>
+          <li><a href="#">Mis compras</a></li> <i class="fas fa-shopping-basket"></i>
         </ul>
       </nav>
+
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+        </div>
     </header>
     <div>
       <img src="/images/img-home-banner.jpg" alt="" width="100%" />

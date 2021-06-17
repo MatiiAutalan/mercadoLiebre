@@ -1,0 +1,48 @@
+:root {
+    /* COLORES */
+    --color-amarillo : #EAC926;
+    --color-azul : #03264c;
+    --color-celeste : #1259c3;
+    --color-grisOscuro : #666;
+    --color-grisClaro : #ebebeb;
+    --color-verde: #39b54a;
+
+    /* FUENTES */
+
+    --font-roboto : 'Roboto',
+}
+
+* {
+    margin:  0;
+}
+
+header { 
+    background-color: var(--color-amarillo);
+}
+
+.logoBarra{
+    margin: 40px 15px 0 ;
+}
+.tipoPago {
+    text-align: center;
+    margin: 15px;
+}
+
+.tipoPago p {
+    display: inline;
+}
+
+ul{
+    padding: 0;
+}
+
+li {
+ list-style: none;
+ text-decoration: none;
+ 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
