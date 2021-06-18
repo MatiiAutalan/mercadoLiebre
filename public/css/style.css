@@ -1,48 +1,112 @@
 :root {
-    /* COLORES */
-    --color-amarillo : #EAC926;
-    --color-azul : #03264c;
-    --color-celeste : #1259c3;
-    --color-grisOscuro : #666;
-    --color-grisClaro : #ebebeb;
-    --color-verde: #39b54a;
+  /* COLORES */
+  --color-amarillo: #eac926;
+  --color-azul: #03264c;
+  --color-celeste: #1259c3;
+  --color-grisOscuro: #666;
+  --color-grisClaro: #ebebeb;
+  --color-verde: #39b54a;
 
-    /* FUENTES */
+  /* FUENTES */
 
-    --font-roboto : 'Roboto',
+  --font-roboto: "Roboto", sans-serif;
+
+  /*tamaño fuentes*/
+  --paragraph: 12px;
+  --title: 24px;
+  --prices: 18px;
+  --discounts-descriptions: 16px;
 }
 
 * {
-    margin:  0;
-}
-
-header { 
-    background-color: var(--color-amarillo);
-}
-
-.logoBarra{
-    margin: 40px 15px 0 ;
-}
-.tipoPago {
-    text-align: center;
-    margin: 15px;
-}
-
-.tipoPago p {
-    display: inline;
-}
-
-ul{
-    padding: 0;
-}
-
-li {
- list-style: none;
- text-decoration: none;
- 
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
+
+body {
+  font-family: var(--font-roboto);
+}
+
+header {
+  background-color: var(--color-amarillo);
+  font-size: var(--paragraph);
+  height: 330px;
+}
+
+header .burger-menu {
+  background-color: var(--color-celeste);
+  padding: 7px;
+  width: 18px;
+  color: white;
+  border-radius: 5px;
+  margin: 0 0 0 135px;
+  text-align: center;
+  font-size: 18px;
+}
+
+header input {
+  width: 175px;
+}
+
+header .logo {
+  width: 130px;
+  margin-left: 25px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+#top-list {
+  margin: 0 0 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+footer{
+    text-align: center;
+    font-size: var(--paragraph);
+    color: var(--color-azul);
+    margin: 25px 45px;
+}
+
+footer h4 {
+    font-size: var(--discounts-descriptions)
+}
+
+footer p {
+    font-size: var(--paragraph);
+    text-align: center;
+}
+
+.copy {
+    text-align: left;
+    font-size: var(--paragraph);
+    color: var(--color-azul);
+    margin: 0 0 15px 20px;
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--color-celeste);
+}
+
+footer div {
+    margin : 0 0 35px ;
+}
+
