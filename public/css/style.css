@@ -177,6 +177,10 @@ main section h4 {
   header nav {
     display: block;
   }
+
+  header .burger-menu {
+    display: none;
+  }
 }
 
 @media (min-width: 769px ) {
@@ -187,5 +191,9 @@ main section h4 {
 
   header nav {
     display: block;
+  }
+
+  header .burger-menu {
+    display: none;
   }
 }
