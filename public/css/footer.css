@@ -1,0 +1,33 @@
+footer {
+    text-align: center;
+    font-size: var(--paragraph);
+    color: var(--color-azul);
+    margin: 25px 45px;
+  }
+  
+  footer h4 {
+    font-size: var(--discounts-descriptions);
+  }
+  
+  footer p {
+    font-size: var(--paragraph);
+    text-align: center;
+  }
+  
+  .copy {
+    text-align: left;
+    font-size: var(--paragraph);
+    color: var(--color-azul);
+    margin: 0 0 15px 20px;
+  }
+  
+  footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--color-celeste);
+  }
+  
+  footer div {
+    margin: 0 0 35px;
+  }
+  

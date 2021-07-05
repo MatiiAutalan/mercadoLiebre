@@ -15,29 +15,29 @@
   <body>
 
     <header>
-      <div class="logo">
-        <img src="/images/logo-mercado-liebre.svg" alt="Logo de mercado liebre"/>
-      </div>
+     <div class="container-logo-search">
+        <div class="logo">
+          <img src="/images/logo-mercado-liebre.svg" alt="Logo de mercado liebre"/>
+        </div>
 
-      <div class="ml-15">
-        <input type="search" placeholder="Buscar productos, marcas"/>
-        <button >
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-        
-      <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-      
-
+        <div class="searchBar">
+          <input type="search" placeholder="Buscar productos, marcas"/>
+          <button >
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+     </div>
+     
       <nav>
-        <ul id="top-list">
+        <ul>
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Tiendas Oficiales</a></li>
           <li><a href="#">Vender</a></li>
           <li><a href="#">Ayuda</a></li>
         </ul>
 
-        <ul id="top-list">
+        <ul>
           <li><a href="#">Creá tu cuenta<i class="far fa-address-card"></i></a></li>
           <li><a href="#">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
           <li><a href="#">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
@@ -56,15 +56,24 @@
     </div>
 
     <main>
-      <section>
-        <h4>Basado en tu ultima visita</h4>
+      <section class="section-1">
+        <h4 class="sectionTitle">Basado en tu ultima visita</h4>
         <article class="card">
+
           <img src="/images/img-cafetera-moulinex.jpg" alt="imagen cafetera moulinex" width="100%" />
+
           <div class="card-descrip">
-          <i class="fas fa-truck"></i>
-          <p class="precio">$6.770</p>
-          <p class="descuento">40% OFF</p>
-          <h5>Cafetera Moulinex</h5>
+          <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+
+          <div class= "product-info">
+            <p class="precio">$6.770</p>
+            <p class="descuento">40% OFF</p>
+          </div>
+
+          <h5 class="product-name">Cafetera Moulinex</h5>
+
         </div>
         </article>
         <article class="card">
@@ -74,10 +83,14 @@
             width="100%"
           />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+              <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$230.000</p>
           <p class="descuento">20% OFF</p>
-          <h5>Macbook Pro</h5>
+          </div>
+          <h5 class="product-name">Macbook Pro</h5>
           </div>
         </article>
         <article class="card">
@@ -87,10 +100,14 @@
             width="100%"
           />
           <div class="card-descrip">
-          <i class="fas fa-truck"></i>
+          <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$70.500</p>
           <p class="descuento">10% OFF</p>
-          <h5>Samsung Galaxy S10</h5>
+          </div>
+          <h5 class="product-name">Samsung Galaxy S10</h5>
           </div>
         </article>
         <article class="card">
@@ -100,28 +117,32 @@
             width="100%"
           />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+            <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$23.200</p>
           <p class="descuento">5% OFF</p>
-          <h5>SmartTV Samsung 43"</h5>
+          </div>
+          <h5 class="product-name">SmartTV Samsung 43"</h5>
           </div>
         </article>
       </section>
-
-      <section>
-        <h4>Sección de Ofertas</h>
+      
+      <section class="section-1">
+        <h4 class="sectionTitle">Seccion de Ofertas</h4>
         <article class="card">
-          <img
-            src="/images/img-cafetera-moulinex.jpg"
-            alt="imagen cafetera moulinex"
-            width="100%"
-          />
+          <img src="/images/img-cafetera-moulinex.jpg" alt="imagen cafetera moulinex" width="100%" />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+          <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$6.770</p>
           <p class="descuento">40% OFF</p>
-          <h5>Cafetera Moulinex</h5>
           </div>
+          <h5 class="product-name">Cafetera Moulinex</h5>
+        </div>
         </article>
         <article class="card">
           <img
@@ -130,10 +151,14 @@
             width="100%"
           />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+            <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$230.000</p>
           <p class="descuento">20% OFF</p>
-          <h5>Macbook Pro</h5>
+          </div>
+          <h5 class="product-name">Macbook Pro</h5>
           </div>
         </article>
         <article class="card">
@@ -143,10 +168,14 @@
             width="100%"
           />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+          <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$70.500</p>
           <p class="descuento">10% OFF</p>
-          <h5>Samsung Galaxy S10</h5>
+          </div>
+          <h5 class="product-name">Samsung Galaxy S10</h5>
           </div>
         </article>
         <article class="card">
@@ -156,13 +185,19 @@
             width="100%"
           />
           <div class="card-descrip">
-            <i class="fas fa-truck"></i>
+            <div class="icon-truck">
+              <i class="fas fa-truck"></i>
+          </div>
+          <div class= "product-info">
           <p class="precio">$23.200</p>
           <p class="descuento">5% OFF</p>
-          <h5>SmartTV Samsung 43"</h5>
+          </div>
+          <h5 class="product-name">SmartTV Samsung 43"</h5>
           </div>
         </article>
       </section>
+
+
     </main>
 
     <footer>

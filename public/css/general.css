@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  body {
+    font-family: var(--font-roboto);
+    background-color: var(--color-grisClaro);
+  }
+  
+  #top-list {
+    margin: 0 0 15px;
+  }
+  
+  .ml-15 {
+    margin-left: 15px;
+  }
+  
+  li {
+    list-style: none;
+  }
