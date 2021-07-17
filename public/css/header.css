@@ -30,7 +30,7 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
+    justify-content: space-between;
   }
   
   header .logo {
@@ -97,7 +97,7 @@ header {
     }
 
     header p {
-      width: 33%;
+      width: 25%;
       padding-left: 12px;
     }
 
