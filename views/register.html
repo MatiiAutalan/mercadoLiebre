@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+      <form class="containerForm">
+            <div class="profileData">
+                <h4>Datos de cuenta</h4>
+                <input type="text" name="fullName" id="fullName" placeholder="Nombre y apellido">
+                <input type="text" name="nameUser" id="nameUser" placeholder="Nombre de usuario">
+                <input type="email" name="email" id="emailRegister" placeholder="E-mail">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <input type="password" name="re-password" id="re-password" placeholder="Repetir contraseña">
+            </div>
+
+            <div class="otherData">
+                <h4>Otros Datos</h4>
+                <input type="date" name="calendar" id="born">
+                <input type="text" name="address" id="address" placeholder="Domicilio">
+                <label for="imageProfile">Cargar foto de perfil</label>
+                <input type="file" name="imageProfile" id="imgProfile">
+            </div>
+
+            <div class="userProfile">
+                <h4>Perfil de usuario</h4>
+                <label for="comprador"> Comprador </label>
+                <input type="radio" name="profile" id="comprador">
+                <label for="vendedor">Vendedor </label>
+                <input type="radio" name="profile" id="vendedor">
+            </div>
+
+            <div class="interests">
+                <h4>Intereses</h4>
+                <input type="checkbox" name="intereses" id="electro">
+                <label for="electro">Electro</label>
+                <input type="checkbox" name="intereses" id="moda">
+                <label for="moda">Moda</label>
+                <input type="checkbox" name="intereses" id="hogar">
+                <label for="hogar">Hogar</label>
+                <input type="checkbox" name="intereses" id="jugueteria">
+                <label for="jugueteria">Juguetería</label>
+                <input type="checkbox" name="intereses" id="vida-sana">
+                <label for="vida-sana">Vida Sana</label>
+            </div>
+
+            <div class="containerButtons">
+                <a href="/"><button type="submit">Enviar</button></a>
+                <button type="reset"> Reiniciar formulario</button>
+            </div>
+      </form>
+  </body>
+</html>

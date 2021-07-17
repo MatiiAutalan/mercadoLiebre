@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerForm {
+  background-color: var(--color-grisClaro);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.containerForm div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.containerForm div h4 {
+  width: 100%;
+}
+
+.containerForm div input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.containerForm .userProfile,
+.containerForm .interests{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerForm .userProfile input,
+.containerForm .interests input {
+    width: 15px;
+    margin: 0 10px
+}
+
+.containerForm .userProfile label {
+    padding-left: 15px;
+}
