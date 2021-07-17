@@ -11,6 +11,7 @@ header {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    position: relative;
   }
 
   header .searchBar input{
@@ -20,6 +21,9 @@ header {
 
   header .searchBar button{
     border: none;
+    background: transparent;
+    right: 10px;
+    position: absolute;
   }
 
   .container-logo-search {
